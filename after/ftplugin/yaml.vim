@@ -27,7 +27,7 @@ function! GetYamlIndent()
 
   if prevline =~ ':$'
     return increase
-  elseif prevline =~ '^\s\+\-' && line =~ '^\s\+[^-]\+:'
+  elseif line =~ '^\s\+[^-]\+:'
     return decrease
   else
     return indent
