@@ -1,6 +1,7 @@
 " Vim indent file
 " Language: Yaml
 " Author: Ian Young
+" Author: Markus Bukowski (small patch)
 
 if exists("b:did_indent")
   finish
